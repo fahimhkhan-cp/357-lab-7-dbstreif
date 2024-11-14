@@ -1,0 +1,33 @@
+==166360== Memcheck, a memory error detector
+==166360== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==166360== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==166360== Command: ./square_plus1.o
+==166360== Parent PID: 63480
+==166360== 
+==166362== 
+==166362== HEAP SUMMARY:
+==166362==     in use at exit: 0 bytes in 0 blocks
+==166362==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==166362== 
+==166362== All heap blocks were freed -- no leaks are possible
+==166362== 
+==166362== For lists of detected and suppressed errors, rerun with: -s
+==166362== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==166361== 
+==166361== HEAP SUMMARY:
+==166361==     in use at exit: 0 bytes in 0 blocks
+==166361==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==166361== 
+==166361== All heap blocks were freed -- no leaks are possible
+==166361== 
+==166361== For lists of detected and suppressed errors, rerun with: -s
+==166361== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==166360== 
+==166360== HEAP SUMMARY:
+==166360==     in use at exit: 0 bytes in 0 blocks
+==166360==   total heap usage: 2 allocs, 2 frees, 2,048 bytes allocated
+==166360== 
+==166360== All heap blocks were freed -- no leaks are possible
+==166360== 
+==166360== For lists of detected and suppressed errors, rerun with: -s
+==166360== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
