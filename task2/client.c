@@ -35,6 +35,8 @@ void send_request(int fd)
    while ((num = getline(&line, &size, stdin)) >= 0)
    {
       write(fd, line, num);
+        read(fd, line, num);
+        printf("%s", line);
    }
 
    free(line);
